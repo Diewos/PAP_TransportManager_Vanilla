@@ -9,13 +9,6 @@
 	display: block;
 }
 
-.logo-overlap {
-	width: 200px; /* default logo width */
-	height: auto; /* preserve aspect ratio */
-	display: block;
-	margin: 0 auto; 
-}
-
 .responsive-hide {
 	display: block; /* Show by default */
 }

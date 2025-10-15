@@ -1,0 +1,29 @@
+#sideimage {
+	padding: 0;
+}
+
+#sideimage img {
+	width: 100%;
+	height: 100vh; /* keeps the image full-height of viewport */
+	object-fit: cover; /* preserves aspect ratio and fills the area without distortion */
+	display: block;
+}
+
+.logo-overlap {
+	width: 200px; /* default logo width */
+	height: auto; /* preserve aspect ratio */
+	display: block;
+	margin: 0 auto; 
+}
+
+.responsive-hide {
+	display: block; /* Show by default */
+}
+
+@media (max-width: 1000px) {
+	.logo-overlap { width: 160px; }
+
+	.responsive-hide {
+		display: none; /* Hide on small screens */
+	}
+}

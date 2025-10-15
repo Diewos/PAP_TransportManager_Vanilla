@@ -7,7 +7,9 @@
         body{
             font-family: 'Glacial Indifference', sans-serif;
         }
-     
+        .card{
+            font-family: Poppins, sans-serif;
+        }
         
         .btn {
             border-radius: 1rem;

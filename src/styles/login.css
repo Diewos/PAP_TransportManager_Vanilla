@@ -16,8 +16,14 @@
 	margin: 0 auto; 
 }
 
+.responsive-hide {
+	display: block; /* Show by default */
+}
 
-
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
 	.logo-overlap { width: 160px; }
+
+	.responsive-hide {
+		display: none; /* Hide on small screens */
+	}
 }

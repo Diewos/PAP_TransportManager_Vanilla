@@ -26,4 +26,18 @@
 	.responsive-hide {
 		display: none; /* Hide on small screens */
 	}
+
+	/* Center the login column when the side image is hidden */
+	.login-col {
+		width: 100% !important;
+		height: 100vh;
+		display: flex !important;
+		align-items: center;
+		justify-content: center;
+		padding: 2rem;
+	}
+	.login-col-inner {
+		width: 100%;
+		max-width: 420px;
+	}
 }

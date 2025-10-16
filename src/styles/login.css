@@ -9,12 +9,20 @@
 	display: block;
 }
 
+.logo-overlap {
+	max-width: 220px;
+	width: 100%;
+	height: auto;
+	display: block;
+	margin: 0 auto 1rem auto;
+}
+
 .responsive-hide {
 	display: block; /* Show by default */
 }
 
 @media (max-width: 1000px) {
-	.logo-overlap { width: 160px; }
+	.logo-overlap { width: 250px; }
 
 	.responsive-hide {
 		display: none; /* Hide on small screens */
